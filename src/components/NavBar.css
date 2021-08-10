@@ -1,0 +1,7 @@
+.navbar form:hover > input {
+    opacity: 1;
+};
+
+.navbar div.menu-user > img {
+    opacity: 1;
+};
