@@ -16,8 +16,9 @@ const Hero = ({ title = 'Avengers Endgame', score = 9}) => {
     };
 
     return (
-        <header className='relative min-h-screen'>
-            <img className='object-cover object-center h-full w-full' src={placeholder} alt='Filme em destaque'/>
+        <header className='box-border relative min-h-screen -mb-56'>
+            <img className='object-cover object-center h-auto w-full' src={placeholder} alt='Filme em destaque'/>
+            <div className='absolute inset-0 w-full h-full bg-gradient-to-b from-transparent to-black'></div>
             <article className='absolute bottom-0 mb-64 px-8'>
                 <p className='text-3xl'>Assista agora:</p>
                 <h2 className='text-6xl font-bold'>{title}</h2>
