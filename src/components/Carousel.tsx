@@ -5,11 +5,9 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 
 import mockData, { Movie } from '../data/mock';
 
-const Poster = ({ cover, title }:{ cover: any, title: string}, index: number) => (
-    <article key={index}>
-        <img src={cover} alt={title}/>
-    </article>
-);
+import Poster from './Poster';
+
+import './Carousel.css';
 
 interface CarouselData {
     title?: string;
@@ -36,8 +34,8 @@ const Carousel = ({ title = 'Filmes em destaque', data = mockData }: CarouselDat
     }; 
 
     return(
-        <section>
-            <h3 className='relative z-10 text-2xl ml-8 mb-4'>{title}</h3>
+        <section className='carousel'>
+            <h3 className='relative z-10 text-2xl ml-8 mb-2'>{title}</h3>
             <Slick className='relative mb-8' {...options}>
                 {data.map( (movie, index) => Poster(movie, index) )}
             </Slick>

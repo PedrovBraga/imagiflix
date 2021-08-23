@@ -4,82 +4,83 @@ import cover3 from '../assets/movie3.jpg';
 
 export interface Movie {
     title: string;
-    cover: string;
+    poster_path: string;
+    vote_average?: number | string;
 }
 
 const mockData: Movie[] = [
 
     {
         title: 'Avengers',
-        cover: cover1,
+        poster_path: cover1,
     },
     {
         title: 'Missão Impossível',
-        cover: cover2,
+        poster_path: cover2,
     },
     {
         title: 'Mega Tubarão',
-        cover: cover3,
+        poster_path: cover3,
     },
     {
         title: 'Avengers',
-        cover: cover1,
+        poster_path: cover1,
     },
     {
         title: 'Missão Impossível',
-        cover: cover2,
+        poster_path: cover2,
     },
     {
         title: 'Mega Tubarão',
-        cover: cover3,
+        poster_path: cover3,
     },
     {
         title: 'Avengers',
-        cover: cover1,
+        poster_path: cover1,
     },
     {
         title: 'Missão Impossível',
-        cover: cover2,
+        poster_path: cover2,
     },
     {
         title: 'Mega Tubarão',
-        cover: cover3,
+        poster_path: cover3,
     },
     {
         title: 'Avengers',
-        cover: cover1,
+        poster_path: cover1,
     },
     {
         title: 'Missão Impossível',
-        cover: cover2,
+        poster_path: cover2,
     },
     {
         title: 'Mega Tubarão',
-        cover: cover3,
+        poster_path: cover3,
     },
     {
         title: 'Avengers',
-        cover: cover1,
+        poster_path: cover1,
     },
     {
         title: 'Missão Impossível',
-        cover: cover2,
+        poster_path: cover2,
     },
     {
         title: 'Mega Tubarão',
-        cover: cover3,
+        poster_path: cover3,
     },
     {
         title: 'Avengers',
-        cover: cover1,
+        poster_path: cover1,
     },
     {
         title: 'Missão Impossível',
-        cover: cover2,
+        poster_path: cover2,
     },
     {
         title: 'Mega Tubarão',
-        cover: cover3,
+        poster_path: cover3,
     }
 
 ];

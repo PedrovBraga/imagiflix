@@ -22,7 +22,7 @@ const NavBar = () => {
                 <img src={logo} alt='Imagiflix'/>
                 <ul className='grid grid-flow-col gap-4'>
                     <li>
-                        <a>Início</a>
+                        <a href='#inicio'>Início</a>
                     </li>
                     <li>
                         <a href='#series'>Séries</a>
