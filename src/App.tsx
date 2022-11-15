@@ -31,7 +31,7 @@ function App() {
 
   const getMovieList = () => {
     if (movies) {
-      const [ featured, ...movieList ] = movies?.results;
+      const [ ...movieList ] = movies?.results;
       return movieList;
     }
     return [];

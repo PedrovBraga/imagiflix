@@ -7,7 +7,7 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import Score from './Score';
 
 import CONST from '../data/constants';
-import { Title, TitleType } from '../App';
+import { TitleType } from '../App';
 
 import { Movie } from '../data/mock';
 

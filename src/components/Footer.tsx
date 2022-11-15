@@ -7,7 +7,7 @@ import { faFacebookSquare, faInstagram, faTwitter, faYoutube } from '@fortawesom
 
 const Footer = () => {
     
-    const today = new Date;
+    const today = new Date();
     
     return (
         <footer className=''>
