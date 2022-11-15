@@ -7,10 +7,12 @@ const EVENTS = {
     ModalClose: 'ModalClose'
 };
 
-export default {
+const constants = {
     URL, 
     IMAGEURL,
     APIKEY,
     APISTRING,
     EVENTS
-};
+}
+
+export default constants;
