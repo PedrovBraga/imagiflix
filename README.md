@@ -1,4 +1,4 @@
-link para o site: https://imagiflix-teste.netlify.app/
+https://imagiflix-teste.netlify.app/
 
 # Imagiflix
 
