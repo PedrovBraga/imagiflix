@@ -13,7 +13,7 @@ Imagiflix é um projeto front end desenvolvido durante o curso Desenvolvedor Fro
 - Express
 
 ## Front End
-- HTML / CSS / JS
+- HTML / CSS / TypeScript
 - React
 - Tailwind
 
