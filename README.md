@@ -1,5 +1,22 @@
 link para o site: https://imagiflix-teste.netlify.app/
 
+# Imagiflix
+
+Imagiflix é um projeto front end desenvolvido durante o curso Desenvolvedor Front End da Imagineschool. A página foi desenvolvida com o intuito de ter um layout parecido ao da Netflix e com conteúdo dinâmico utilizando a api The Movie Database.
+
+## Layout Web
+![Web 1] (https://github.com/PedrovBraga/assets-readmes/blob/main/imagiflix-print.png)
+
+# Tecnologias Utilizadas
+## Back End
+- Node.js
+- Express
+
+## Front End
+- HTML / CSS / JS
+- React
+- Tailwind
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
